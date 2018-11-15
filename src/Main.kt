@@ -9,11 +9,11 @@ fun main(args: Array<String>){
    */
 
     //Build class guitar
-    val guitar = Guitar("Fender")
-    println(guitar.marca+" "+guitar.modelo)
+    val guitar = Guitar("Fender","Strato",1950)
+    println(guitar._marca+" "+guitar.modelo)
 
     //Build class Acoustic
     val acoustic = Acoustic("Epiphone","")
-    println(acoustic.marca+" "+acoustic.modelo)
+    println(acoustic._marca+" "+acoustic.modelo)
 
 }
